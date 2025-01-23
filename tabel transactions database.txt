@@ -1,7 +1,0 @@
-CREATE TABLE `transactions` (
-  `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  `tanggal` DATE NOT NULL,
-  `deskripsi` VARCHAR(255) NOT NULL,
-  `jumlah` DECIMAL(10, 2) NOT NULL,
-  `jenis_transaksi` ENUM('debit', 'kredit') NOT NULL
-);
