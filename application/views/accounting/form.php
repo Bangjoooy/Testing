@@ -23,6 +23,8 @@
             <option value="kredit">Kredit</option>
         </select><br><br>
 
+
+
         <input type="submit" value="Simpan">
     </form>
 </body>
